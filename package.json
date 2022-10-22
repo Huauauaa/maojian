@@ -1,0 +1,18 @@
+{
+  "name": "@harvey0379/maojian",
+  "description": "get git info from git repository",
+  "version": "0.0.2-1",
+  "main": "src/index.js",
+  "author": "Harvey <harvey0379@163.com>",
+  "repository": "Huauauaa/maojian",
+  "license": "MIT",
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "git"
+  ],
+  "scripts": {
+    "test": "node test/index.test.js"
+  }
+}
