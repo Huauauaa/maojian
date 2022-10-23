@@ -1,18 +1,24 @@
 {
   "name": "@harvey0379/maojian",
-  "description": "get git info from git repository",
-  "version": "0.0.2-1",
-  "main": "src/index.js",
+  "description": "get git info from .git",
+  "version": "0.0.2-17",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
   "author": "Harvey <harvey0379@163.com>",
   "repository": "Huauauaa/maojian",
   "license": "MIT",
   "files": [
-    "src"
+    "dist"
   ],
   "keywords": [
     "git"
   ],
   "scripts": {
-    "test": "node test/index.test.js"
+    "build": "rm -rf dist && rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^3.2.3",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.8.4"
   }
 }
